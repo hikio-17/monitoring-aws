@@ -136,7 +136,9 @@ function storeRememberMe(): void {
        </div>
        <!-- /.col -->
        <div class="col-4">
-        <button type="submit" class="btn btn-primary btn-block" :disabled="error">Sign In</button>
+        <button type="submit" class="btn btn-primary btn-block" :disabled="error">
+         <nuxt-link to="/admin" class="text-white">Sign In</nuxt-link>
+      </button>
        </div>
        <!-- /.col -->
       </div>

@@ -19,7 +19,6 @@
   "dependencies": {
     "@nuxt/image": "^1.0.0",
     "@pinia/nuxt": "^0.5.1",
-    "admin-lte": "3.0",
     "bootstrap": "4.6",
     "jquery": "^3.7.1"
   }

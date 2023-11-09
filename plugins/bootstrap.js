@@ -1,4 +1,4 @@
-import * as bootstrap from 'admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js'
+import * as bootstrap from 'bootstrap'
 
 export default defineNuxtPlugin(() => {
    return {
