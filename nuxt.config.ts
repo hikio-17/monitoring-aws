@@ -2,10 +2,6 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: [
-    'admin-lte/dist/css/adminlte.min.css',
-  ],
-
   app: {
     head: {
       script: [
@@ -17,12 +13,16 @@ export default defineNuxtConfig({
       ]
     }
   },
+  css: [
+    'admin-lte/dist/css/adminlte.min.css',
+    'admin-lte/plugins/fontawesome-free/css/all.min.css'
+  ],
 
   plugins: [
     { src: '~/plugins/jquery.js', mode: 'client' },
     { src: '~/plugins/bootstrap.js', mode: 'client' },
     { src: '~/plugins/jquery.overlayScrollbars.min.js', mode: 'client' },
     { src: '~/plugins/adminlte.js', mode: 'client' },
-  ],
+   ],
   modules: ['@pinia/nuxt', '@nuxt/image']
 })
