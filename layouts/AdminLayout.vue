@@ -3,7 +3,6 @@
 <template>
   <section class="wrapper">
     <NavBar />
-
     <SideBar />
     <slot />
   </section>
