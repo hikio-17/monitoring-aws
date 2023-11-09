@@ -1,7 +1,5 @@
 <script setup></script>
 
 <template>
-  <section>
-    <p>Test</p>
-  </section>
+  <slot />
 </template>
